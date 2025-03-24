@@ -29,7 +29,9 @@ mp_drawing_styles = mp.solutions.drawing_styles
 hands = mp_hands.Hands(static_image_mode=False, min_detection_confidence=0.5, max_num_hands=1)
 
 # Label dictionary
-labels_dict = {0: 'Shaswat', 1: '4', 2: 'Ayan'}
+labels_dict = {0: 'Shaswat', 1: 'Ayan', 2: 'Abhyuday', 3: 'Haimanti', 
+    4: 'Hello', 5: 'Yes', 6: 'No', 
+    7: 'I', 8: 'Am', 9: 'Thankyou'}
 
 # To prevent repeating audio for the same detection
 last_prediction = ""
