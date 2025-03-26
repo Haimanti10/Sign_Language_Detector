@@ -8,11 +8,11 @@ if not os.path.exists(DATA_DIR):
 # Define 10 hand gestures
 gesture_names = [
     "Shaswat", "Ayan", "Abhyuday", "Haimanti", "Hello", 
-    "Yes", "No", "I", "Am", "Thankyou"
-] # 5 fingers(open palm)=Shaswat, 2 fingers(victory)=Ayan, 3 fingers= Abhyuday, 4 fingers=Haimanti, Fist=Hello, Thumbsup=Yes, Thumbsdown=No, 
-  #Index finger pointing up= I, Index finger pointing right= Am,, 5 fingers pointing right= Thankyou
-number_of_classes= 10
-dataset_size = 100  # Number of images per class
+    "My", "You", "Is", "Name","Who","Are","Thankyou"
+] # 5 fingers(open palm)=Shaswat, 2 fingers(victory)=Ayan, 3 fingers= Abhyuday, 4 fingers=Haimanti, Fist=Hello, Thumbsup=My
+  #Indexfinger pointing right=You, Index finger pointing left= Is, Rock sign=Name, call sign=Who, L sign(right)=Are ,Okay sign=Thankyou
+number_of_classes= 12
+dataset_size = 300  # Number of images per class
 
 cap = cv2.VideoCapture(0)
 for j in range(number_of_classes):
