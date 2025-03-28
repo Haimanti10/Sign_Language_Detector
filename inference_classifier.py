@@ -47,7 +47,7 @@ def update_scrolling_text(new_word, scrolling_text, max_length=50):
 
 # Frame skipping variables
 frame_count = 0
-frame_skip = 3  # Only predict every 3 frames
+frame_skip = 20  # Only predict every 20 frames
 
 while True:
     data_aux = []
